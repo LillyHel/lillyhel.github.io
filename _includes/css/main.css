@@ -246,6 +246,13 @@ section.success {
     z-index: 2;
 }
 
+.round {
+    width: 200px;           /* Oder was du willst */
+    height: 200px;          /* Optional, quadratisch ist am einfachsten */
+    object-fit: cover;      /* Zuschneiden, damit nix verzerrt */
+    border-radius: 50%;     /* Das macht es rund! */
+  }
+
 @media(min-width:767px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -284,6 +291,15 @@ section.success {
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-secondary {
+    margin-top: 15px;
+    border: solid 2px #c74600;
+    font-size: 20px;
+    color: #c74600;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
