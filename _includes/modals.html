@@ -22,6 +22,12 @@
               src="img/portfolio/{{ post.img }}"
               class="img-responsive img-centered"
               alt="{{ post.alt }}" />
+            {% if post.project-img %}
+            {%for img in %}
+            <div>
+              
+            </div>
+            {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
             {% endif %} {% if post.link %}
