@@ -1,32 +1,35 @@
-Freelancer Jekyll theme  
-=========================
+# My Portfolio Website
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Welcome to my personal portfolio! This website showcases my projects, skills, and experience.
+It is built using Jekyll and is based on the Freelancer Jekyll theme.
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
+## 🚀 About This Portfolio
+
+This website serves as my online presence, where I present my work in frontend development, design, and other creative projects.
+
+## 📂 Projects
+
+Here’s a curated selection of my projects, showcasing how they are structured and presented.
+
+- **Project Gallery**: Each project is displayed in a visually appealing format.
+- **Detail View**: Click on a project to dive deeper into its details, explore live demonstrations, and browse the codebase.
+
+
+You can view my portfolio live [here](https://lillyhel.github.io/).
+
+## 🔧 How I Built This Site
+
+- **Jekyll-powered**: A static site generator that makes the portfolio fast and efficient.
+- **Custom Styling**: Modified the base Freelancer Jekyll theme to fit my personal brand.
+- **Fully Responsive**: Works smoothly on desktop and mobile devices.
+
+
+## 🎨 Credits
+
+While this portfolio is customized to reflect my work, it is based on the [Freelancer Jekyll Theme](https://github.com/original-author/freelancer-jekyll), inspired by the Freelancer Bootstrap theme.
+
 ---
-layout: default
-modal-id: 1
-date: 2020-01-18
-img: cabin.png
-alt: image-alt
-project-date: January 2020
-client: The Client
-category: Web Development
-description: The description of the project
 
----
-```
+Thanks for visiting my portfolio! If you’d like to connect, feel free to reach out. 😊
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.com/freelancer-theme)
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
-
----------
-For more details, read the [documentation](http://jekyllrb.com/)
