@@ -4,7 +4,7 @@ email: lillyhelena.be@gmx.de
 url: https://github.com/LillyHel/lillyhel.github.io
 description: "Hi, I am Lilly! Let's design and code some cool projects together."
 keywords: "web development, frontend development, iOS Development, UI Design, UX Design"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+skills: "Frontend Developer - UI / UX Designer"
 meta_author: Bernhardt Lilly
 
 # Google webmaster tools
@@ -33,9 +33,9 @@ color:
 # Footer settings
 footer:
   copyright: Lilly Bernhardt
-  location: Location
+  contact: Contact
+  phone: "+49 17657655122"
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
