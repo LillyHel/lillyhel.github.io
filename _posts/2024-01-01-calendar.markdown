@@ -1,7 +1,7 @@
 ---
 layout: default
-modal-id: 1
-date: 2014-07-18
+modal-id: 3
+date: 2024-01-01
 preview-img: calendar/Calendar_Mockup.png
 images:
 - calendar/calender_project.png
@@ -12,6 +12,8 @@ technologies:
 - CSS
 - HTML
 category: Vanilla JavaScript
+Authors: 
+- Lilly Bernhardt
 link: https://github.com/LillyHel/it_beleg
 demo: https://lillyhel.github.io/Calendar_Vanilla_JS/
 description: A simple calender app coded with vanilla javascript. It shows all bank holidays in Germany and can display every date up to 2099.

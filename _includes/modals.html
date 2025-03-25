@@ -45,19 +45,16 @@
             </a>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.client %}
+            {% if post.autors %}
               <li>
-                Client:
-                <strong>{{ post.client }}</strong>
-              </li>
-              {% endif %} {% if post.project-date %}
-              <li>
-                Date:
-                <strong>{{ post.project-date }}</strong>
+                Autors:
+                {% for author in post.autors %}
+                <strong>{{ author }} |</strong>
+                {% endfor %}
               </li>
               {% endif %} {% if post.category %}
               <li>
-                Service:
+                Category:
                 <strong>{{ post.category }}</strong>
               </li>
               {% endif %}

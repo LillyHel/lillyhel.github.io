@@ -1,18 +1,19 @@
 ---
 layout: default
-modal-id: 2
-date: 2014-07-17
+modal-id: 1
+date: 2025-03-01
 preview-img: wordScramble/WordScramble_Mockup.png
 images:
 - wordScramble/App_flow.png
 - wordScramble/Difficulty_Modes.png
 - wordScramble/Scoreboard.png
 alt: image-alt
-project-date: April 2014
 technologies: 
 - Swift
 - SwiftUI
 category: Web Development
+autors: 
+- Lilly Bernhardt
 link: https://github.com/LillyHel/WordScramble
 demo: video/WordScramble_demo.mp4
 description: |
