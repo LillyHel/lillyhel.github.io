@@ -11,7 +11,7 @@ alt: image-alt
 technologies: 
 - Swift
 - SwiftUI
-category: Web Development
+category: iOS Development
 autors: 
 - Lilly Bernhardt
 link: https://github.com/LillyHel/WordScramble

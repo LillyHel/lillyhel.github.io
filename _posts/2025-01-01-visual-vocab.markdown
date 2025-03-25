@@ -4,10 +4,9 @@ modal-id: 2
 date: 2025-01-01
 preview-img: visualVocab/VV_Mockup.png
 images:
-- visualVocab/VV_StartScreen.png
-- visualVocab/VV_SceneSelection.png
+- visualVocab/VV_Start.png
 - visualVocab/VV_InGame.png
-- visualVocab/VV_EndScreen.png
+- visualVocab/VV_End.png
 alt: image-alt
 technologies: 
 - JS
