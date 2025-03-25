@@ -16,5 +16,6 @@ Authors:
 - Lilly Bernhardt
 link: https://github.com/LillyHel/it_beleg
 demo: https://lillyhel.github.io/Calendar_Vanilla_JS/
-description: A simple calender app coded with vanilla javascript. It shows all bank holidays in Germany and can display every date up to 2099.
+description: This project is a fully dynamic calendar for any year between 2000 and 2099, built with vanilla JavaScript, HTML, and CSS. It calculates and displays fixed and dynamic holidays in Germany and shows calendar weeks (KW). The project runs in the browser and includes a service worker for offline capability.
+
 ---

@@ -287,7 +287,7 @@ section.success {
   } */
 
 .btn-outline {
-    margin-top: 15px;
+    margin: 15px;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
@@ -296,7 +296,7 @@ section.success {
 }
 
 .btn-outline-secondary {
-    margin-top: 15px;
+    margin: 15px;
     border: solid 2px #c74600;
     font-size: 20px;
     color: #c74600;
@@ -490,7 +490,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: #{{ site.color.secondary }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -498,4 +498,13 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.modal-description {
+    color: #{{site.color.primary}}
+}
+
+.modal-tech-stack {
+    display: flex;
+    justify-content: center;
 }

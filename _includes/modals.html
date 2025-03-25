@@ -18,14 +18,16 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr />
-            <div style="display: flex; justify-content: center;">
+            <div class="modal-tech-stack">
             {% for technology in post.technologies %}
             <h4 style="padding: 20px;">#{{ technology }}</h4>
             {% endfor %}
           </div>
             <hr />
             {% if post.description %}
-            <p>{{ post.description }}</p>
+            <div class="modal-description">
+              <p>{{ post.description }}</p>
+            </div>
             {% endif %} 
             <hr />
             {% for image in post.images %}
