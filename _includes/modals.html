@@ -29,6 +29,11 @@
               <i class="fa-solid fa-code"></i> Checkout the code
             </a>
             {% endif %}
+            {% if post.demo %}
+            <a href="{{post.demo}}" class="btn btn-lg btn-outline-secondary">
+              <i class="fa-regular fa-eye"></i> View demo
+            </a>
+            {% endif %}
             <ul class="list-inline item-details">
               {% if post.client %}
               <li>

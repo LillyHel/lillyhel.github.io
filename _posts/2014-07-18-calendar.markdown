@@ -7,5 +7,6 @@ alt: image-alt
 project-date: May 2023
 category: Vanilla JavaScript
 link: https://github.com/LillyHel/it_beleg
+demo: https://lillyhel.github.io/Calendar_Vanilla_JS/
 description: A simple calender app coded with vanilla javascript. It shows all bank holidays in Germany and can display every date up to 2099.
 ---
