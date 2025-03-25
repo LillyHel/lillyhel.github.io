@@ -18,13 +18,23 @@
           <div class="modal-body">
             <h2>{{ post.title }}</h2>
             <hr />
-            <img
-              src="img/portfolio/{{ post.img }}"
-              class="img-responsive img-centered"
-              alt="{{ post.alt }}" />
+            <div style="display: flex; justify-content: center;">
+            {% for technology in post.technologies %}
+            <h4 style="padding: 20px;">#{{ technology }}</h4>
+            {% endfor %}
+          </div>
+            <hr />
             {% if post.description %}
             <p>{{ post.description }}</p>
-            {% endif %} {% if post.link %}
+            {% endif %} 
+            <hr />
+            {% for image in post.images %}
+            <img
+            src="img/portfolio/{{ image }}"
+            class="img-responsive img-centered"
+            alt="{{ post.alt }}" />
+            {% endfor %}
+            {% if post.link %}
             <a href="{{post.link}}" class="btn btn-lg btn-outline-secondary">
               <i class="fa-solid fa-code"></i> Checkout the code
             </a>

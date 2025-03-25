@@ -2,9 +2,15 @@
 layout: default
 modal-id: 1
 date: 2014-07-18
-img: calendar-project-placeholder.jpg
+preview-img: calendar/Calendar_Mockup.png
+images:
+- calendar/calender_project.png
 alt: image-alt
 project-date: May 2023
+technologies: 
+- JavaScript
+- CSS
+- HTML
 category: Vanilla JavaScript
 link: https://github.com/LillyHel/it_beleg
 demo: https://lillyhel.github.io/Calendar_Vanilla_JS/
