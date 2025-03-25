@@ -506,5 +506,11 @@ footer .footer-below {
 
 .modal-tech-stack {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.modal-tech-stack h4 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
